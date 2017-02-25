@@ -1,0 +1,32 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=C:\Altera_projects --output-directory=C:\Altera_projects\pll_new --report-file=bsf:C:\Altera_projects\pll_new\main_pll.bsf --system-info=DEVICE_FAMILY="Cyclone V" --system-info=DEVICE=5CSEMA5F31C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=C:\Altera_projects\main_pll.qsys --remove-qsys-generate-warning
+Progress: Loading Altera_projects/main_pll.qsys
+Progress: Reading input file
+Progress: Adding pll_0 [altera_pll 14.1]
+Progress: Parameterizing module pll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: main_pll.pll_0: The legal reference clock frequency is 50.0 MHz..800.0 MHz
+Info: main_pll.pll_0: Able to implement PLL with user settings
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=C:\Altera_projects --output-directory=C:\Altera_projects\pll_new\synthesis --file-set=QUARTUS_SYNTH --report-file=html:C:\Altera_projects\pll_new\main_pll.html --report-file=sopcinfo:C:\Altera_projects\main_pll.sopcinfo --report-file=cmp:C:\Altera_projects\pll_new\main_pll.cmp --report-file=qip:C:\Altera_projects\pll_new\synthesis\main_pll.qip --report-file=svd:C:\Altera_projects\pll_new\synthesis\main_pll.svd --report-file=regmap:C:\Altera_projects\pll_new\synthesis\main_pll.regmap --report-file=xml:C:\Altera_projects\pll_new\main_pll.xml --report-file=debuginfo:C:\Altera_projects\pll_new\synthesis\main_pll.debuginfo --system-info=DEVICE_FAMILY="Cyclone V" --system-info=DEVICE=5CSEMA5F31C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=C:\Altera_projects\main_pll.qsys --remove-qsys-generate-warning --language=VHDL
+Progress: Loading Altera_projects/main_pll.qsys
+Progress: Reading input file
+Progress: Adding pll_0 [altera_pll 14.1]
+Progress: Parameterizing module pll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: main_pll.pll_0: The legal reference clock frequency is 50.0 MHz..800.0 MHz
+Info: main_pll.pll_0: Able to implement PLL with user settings
+Info: main_pll: Generating main_pll "main_pll" for QUARTUS_SYNTH
+Info: pll_0: "main_pll" instantiated altera_pll "pll_0"
+Info: main_pll: Done "main_pll" with 2 modules, 3 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
